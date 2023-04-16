@@ -1,0 +1,21 @@
+{
+  "name": "esbuild-immer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsx esbuild.ts",
+    "start": "node dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xstate/immer": "^0.3.2",
+    "esbuild": "^0.17.16",
+    "immer": "^9.0.21",
+    "tsx": "^3.12.6",
+    "xstate": "^4.37.1"
+  }
+}
