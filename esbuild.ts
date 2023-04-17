@@ -6,7 +6,7 @@ void (async function () {
     entryPoints: ["src/index.ts"],
     logLevel: "info",
     outdir: "dist",
-    minify: true,
+    minify: false,
     bundle: true,
     platform: "node",
     format: "cjs",
