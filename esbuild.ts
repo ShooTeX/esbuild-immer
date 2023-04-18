@@ -10,6 +10,7 @@ void (async function () {
     bundle: true,
     platform: "node",
     format: "cjs",
+    sourcemap: true,
   });
 })();
 

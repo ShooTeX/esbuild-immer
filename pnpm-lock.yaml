@@ -3,14 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@xstate/immer': ^0.3.2
   esbuild: ^0.17.16
-  immer: ^9.0.21
+  immer: ^10.0.1
   tsx: ^3.12.6
   xstate: ^4.37.1
 
 dependencies:
-  '@xstate/immer': 0.3.2_immer@9.0.21+xstate@4.37.1
+  '@xstate/immer': 0.3.2_immer@10.0.1+xstate@4.37.1
   esbuild: 0.17.16
-  immer: 9.0.21
+  immer: 10.0.1
   tsx: 3.12.6
   xstate: 4.37.1
 
@@ -235,13 +235,13 @@ packages:
     dev: false
     optional: true
 
-  /@xstate/immer/0.3.2_immer@9.0.21+xstate@4.37.1:
+  /@xstate/immer/0.3.2_immer@10.0.1+xstate@4.37.1:
     resolution: {integrity: sha512-Ez1Q+xG43eHIQsLUiZWozohEg4hx5eA7qeexf0UjhmKxZPPlWs5c6Hks8PsRB7NMxGIBTS9Dg6ueQXhcuhxeAg==}
     peerDependencies:
       immer: ^9.0.6
       xstate: ^4.36.0
     dependencies:
-      immer: 9.0.21
+      immer: 10.0.1
       xstate: 4.37.1
     dev: false
 
@@ -291,8 +291,8 @@ packages:
     resolution: {integrity: sha512-MjhiaIWCJ1sAU4pIQ5i5OfOuHHxVo1oYeNsWTON7jxYkod8pHocXeh+SSbmu5OZZZK73B6cbJ2XADzXehLyovQ==}
     dev: false
 
-  /immer/9.0.21:
-    resolution: {integrity: sha512-bc4NBHqOqSfRW7POMkHd51LvClaeMXpm8dx0e8oE2GORbq5aRK7Bxl4FyzVLdGtLmvLKL7BTDBG5ACQm4HWjTA==}
+  /immer/10.0.1:
+    resolution: {integrity: sha512-zg++jJLsKKTwXGeSYIw0HgChSYQGtu0UDTnbKx5aGLYgte4CwTmH9eJDYyQ6FheyUtBe+lQW9FrGxya1G+Dtmg==}
     dev: false
 
   /source-map-support/0.5.21:
