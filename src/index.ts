@@ -8,6 +8,7 @@ const machine = createMachine({
   id: 'test',
   initial: 'pending',
   preserveActionOrder: true,
+  predictableActionArguments: true,
   context: {
     testMap: new Map(),
   },

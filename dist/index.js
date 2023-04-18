@@ -7576,6 +7576,7 @@ var machine = (0, import_xstate.createMachine)({
   id: "test",
   initial: "pending",
   preserveActionOrder: true,
+  predictableActionArguments: true,
   context: {
     testMap: /* @__PURE__ */ new Map()
   },
